@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jura&family=Karantina&family=Kavivanar&family=Inder&display=swap");
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Jura", sans-serif;
+  --third-family: "Karantina", sans-serif;
+  --font3: "Kavivanar", sans-serif;
+  --font4: "Inder", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-container {
+  max-width: 1166px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
