@@ -127,6 +127,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
     a {
       display: flex;
       gap: 37px;
@@ -148,6 +150,8 @@
     display: flex;
     align-content: inherit;
     justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
     h2 {
       font-family: "Karantina", sans-serif;
       font-weight: 700;
@@ -165,9 +169,10 @@
       letter-spacing: 0.15em;
       text-align: center;
       color: #fff;
+      flex-wrap: wrap;
     }
   }
-  >div > p {
+  > div > p {
     font-family: "Kavivanar", sans-serif;
     font-weight: 400;
     font-size: 20px;
