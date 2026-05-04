@@ -167,7 +167,7 @@
       color: #fff;
     }
   }
-  > p {
+  >div > p {
     font-family: "Kavivanar", sans-serif;
     font-weight: 400;
     font-size: 20px;
