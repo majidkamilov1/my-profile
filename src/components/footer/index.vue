@@ -132,6 +132,8 @@
     a {
       display: flex;
       gap: 37px;
+      justify-content: center;
+      align-content: center;
       align-self: start;
       font-family: "Inter", sans-serif;
       font-weight: 500;

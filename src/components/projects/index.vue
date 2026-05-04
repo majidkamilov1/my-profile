@@ -140,7 +140,19 @@ const projects = reactive([
     currentIndex: 0,
     intervalId: null,
   },
-
+  {
+    name: "intex-cargo",
+    link: "https://intex-cargo.com/",
+    description: "",
+    images: [
+      "/images/project/intex-cargo/1.png",
+      "/images/project/intex-cargo/2.png",
+      "/images/project/intex-cargo/3.png",
+      "/images/project/intex-cargo/4.png",
+    ],
+    currentIndex: 0,
+    intervalId: null,
+  },
   {
     name: "Драмтеатр",
     link: "#",
@@ -164,19 +176,6 @@ const projects = reactive([
       "/images/project/мёд/3.png",
       "/images/project/мёд/4.png",
       "/images/project/мёд/5.png",
-    ],
-    currentIndex: 0,
-    intervalId: null,
-  },
-  {
-    name: "intex-cargo",
-    link: "https://intex-cargo.com/",
-    description: "",
-    images: [
-      "/images/project/intex-cargo/1.png",
-      "/images/project/intex-cargo/2.png",
-      "/images/project/intex-cargo/3.png",
-      "/images/project/intex-cargo/4.png",
     ],
     currentIndex: 0,
     intervalId: null,
@@ -231,7 +230,9 @@ onUnmounted(() => {
         font-size: 20px;
         color: #000;
         cursor: pointer;
-        transition: background-color 0.3s, color 0.3s;
+        transition:
+          background-color 0.3s,
+          color 0.3s;
         display: flex;
         justify-content: center;
         align-items: center;
