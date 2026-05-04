@@ -97,12 +97,12 @@
         </a>
       </div>
       <a href="">kamilov1majid@gmail.com</a>
+      <div class="footer-text">
+        <h2>MAJID</h2>
+        <p>© 2024 All Rights Reserved.</p>
+      </div>
+      <p>Thanks for the Visit 🙏</p>
     </div>
-    <div class="footer-text">
-      <h2>MAJID</h2>
-      <p>© 2024 All Rights Reserved.</p>
-    </div>
-    <p>Thanks for the Visit 🙏</p>
   </footer>
 </template>
 
